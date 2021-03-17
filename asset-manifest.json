@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "//neshdev.github.io/bookmarksapp/static/css/main.8a9c7100.chunk.css",
+    "main.js": "//neshdev.github.io/bookmarksapp/static/js/main.e42696d6.chunk.js",
+    "main.js.map": "//neshdev.github.io/bookmarksapp/static/js/main.e42696d6.chunk.js.map",
+    "runtime-main.js": "//neshdev.github.io/bookmarksapp/static/js/runtime-main.f534604b.js",
+    "runtime-main.js.map": "//neshdev.github.io/bookmarksapp/static/js/runtime-main.f534604b.js.map",
+    "static/js/2.ecf0e728.chunk.js": "//neshdev.github.io/bookmarksapp/static/js/2.ecf0e728.chunk.js",
+    "static/js/2.ecf0e728.chunk.js.map": "//neshdev.github.io/bookmarksapp/static/js/2.ecf0e728.chunk.js.map",
+    "index.html": "//neshdev.github.io/bookmarksapp/index.html",
+    "static/css/main.8a9c7100.chunk.css.map": "//neshdev.github.io/bookmarksapp/static/css/main.8a9c7100.chunk.css.map",
+    "static/js/2.ecf0e728.chunk.js.LICENSE.txt": "//neshdev.github.io/bookmarksapp/static/js/2.ecf0e728.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f534604b.js",
+    "static/js/2.ecf0e728.chunk.js",
+    "static/css/main.8a9c7100.chunk.css",
+    "static/js/main.e42696d6.chunk.js"
+  ]
+}
