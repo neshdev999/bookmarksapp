@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "//neshdev.github.io/bookmarksapp/static/css/main.bda40de9.chunk.css",
-    "main.js": "//neshdev.github.io/bookmarksapp/static/js/main.e42696d6.chunk.js",
-    "main.js.map": "//neshdev.github.io/bookmarksapp/static/js/main.e42696d6.chunk.js.map",
-    "runtime-main.js": "//neshdev.github.io/bookmarksapp/static/js/runtime-main.f534604b.js",
-    "runtime-main.js.map": "//neshdev.github.io/bookmarksapp/static/js/runtime-main.f534604b.js.map",
-    "static/js/2.ecf0e728.chunk.js": "//neshdev.github.io/bookmarksapp/static/js/2.ecf0e728.chunk.js",
-    "static/js/2.ecf0e728.chunk.js.map": "//neshdev.github.io/bookmarksapp/static/js/2.ecf0e728.chunk.js.map",
-    "index.html": "//neshdev.github.io/bookmarksapp/index.html",
-    "static/css/main.bda40de9.chunk.css.map": "//neshdev.github.io/bookmarksapp/static/css/main.bda40de9.chunk.css.map",
-    "static/js/2.ecf0e728.chunk.js.LICENSE.txt": "//neshdev.github.io/bookmarksapp/static/js/2.ecf0e728.chunk.js.LICENSE.txt"
+    "main.css": "/bookmarksapp/static/css/main.bda40de9.chunk.css",
+    "main.js": "/bookmarksapp/static/js/main.e42696d6.chunk.js",
+    "main.js.map": "/bookmarksapp/static/js/main.e42696d6.chunk.js.map",
+    "runtime-main.js": "/bookmarksapp/static/js/runtime-main.9e4581f4.js",
+    "runtime-main.js.map": "/bookmarksapp/static/js/runtime-main.9e4581f4.js.map",
+    "static/js/2.ecf0e728.chunk.js": "/bookmarksapp/static/js/2.ecf0e728.chunk.js",
+    "static/js/2.ecf0e728.chunk.js.map": "/bookmarksapp/static/js/2.ecf0e728.chunk.js.map",
+    "index.html": "/bookmarksapp/index.html",
+    "static/css/main.bda40de9.chunk.css.map": "/bookmarksapp/static/css/main.bda40de9.chunk.css.map",
+    "static/js/2.ecf0e728.chunk.js.LICENSE.txt": "/bookmarksapp/static/js/2.ecf0e728.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f534604b.js",
+    "static/js/runtime-main.9e4581f4.js",
     "static/js/2.ecf0e728.chunk.js",
     "static/css/main.bda40de9.chunk.css",
     "static/js/main.e42696d6.chunk.js"
