@@ -1,6 +1,6 @@
 import React from 'react';
 import './Bookmark.css';
-
+import PropTypes from 'prop-types';
 import Rating from '../Rating/Rating';
 
 export default function Bookmark(props){
@@ -24,4 +24,34 @@ export default function Bookmark(props){
         </div>
     );
 }
+
+Bookmark.propTypes = {
+    title: PropTypes.string.isRequired,
+    url: (props, propName, componentName) => {
+        // get the value of the prop
+        const prop = props[propName];
+
+        // do the isRequired check
+        if(!prop){
+            return new Error(`${propName} is required in ${componentName}. Validation Failed`);
+        }
+
+        // check the type
+        if(typeof prop != 'string'){
+            return new Error(`Invalid prop, ${propName} is expected to be a string in ${componentName}. ${typeof prop} found`);
+        }
+
+        //do the custom check here using a simple regex
+        if(prop.length < 5 || !prop.match(new RegExp(/^https?:\/\//))){
+            return new Error(`Invalid prop, ${propName} must be min length 5 and begin http(s)://. Validation Failed.`);
+        }
+    },
+    rating: PropTypes.number,
+    description: PropTypes.string
+};
+
+Bookmark.defaultProps = {
+    rating: 1,
+    description: ""
+};
 

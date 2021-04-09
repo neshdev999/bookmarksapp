@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './BookmarkList.css';
 import Bookmark from '../Bookmark/Bookmark';
+import PropTypes from 'prop-types';
 
 class BookmarkList extends Component{
     render(){        
@@ -15,6 +16,15 @@ class BookmarkList extends Component{
 
 BookmarkList.defaultProps = {
     bookmarks: []
+};
+
+BookmarkList.propTypes = {
+    bookmarks: PropTypes.arrayOf(PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        url: PropTypes.string.isRequired,
+        rating: PropTypes.number,
+        description: PropTypes.string
+    }))
 };
 
 export default BookmarkList;
